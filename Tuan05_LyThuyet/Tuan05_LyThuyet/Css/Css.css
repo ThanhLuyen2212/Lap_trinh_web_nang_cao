@@ -1,0 +1,126 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0; 
+}
+
+.logo {
+    margin:10px;
+    width: 250px;
+    height: 50px;
+}
+
+
+
+header img{
+    float:left;    }
+
+.topnav {
+    clear:both;
+    overflow: hidden;
+    background-color: #ff0000;
+    padding: 10px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    text-decoration-color: #db7093;
+    color: black;
+    font-weight: bold;
+}
+
+
+.list{
+    width:30px;
+}
+.banner{
+    width:1150px;
+}
+
+h5{
+    color:red;
+}
+
+.phone {
+   
+    width: 250px;    
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+.row{
+    margin:20px;
+}
+.xemthem {
+    color: red;
+    text-align: center;    
+}
+
+
+
+.test1{
+    float:left;
+    padding-left:100px;
+}
+
+.test2 {
+    float:right;
+    padding-right:100px;
+}
+
+header{
+    clear:both;
+}
+
+.text {
+    border-color: aqua;
+    width: 600px;
+    height: 40px;
+    float:left;
+    margin-left:100px;
+    margin-top:15px;
+}
+
+.button {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+}
+
+.buttonBuy {
+    float:right;
+    margin-top:15px;
+    background-color: red;
+    padding-left:13px;
+    padding-right:30px;
+    color: white;    
+    text-align:left
+}
+
+.buttonBuy1 {
+    margin-top: 15px;    
+    background-color: red;
+    float: right;
+    padding:5px;
+        
+}
+
+.buttonBuy1 img {
+    width: 30px;
+    height: 30px;
+}
