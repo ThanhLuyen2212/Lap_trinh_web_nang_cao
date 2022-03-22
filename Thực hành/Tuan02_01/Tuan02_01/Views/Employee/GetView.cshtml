@@ -1,0 +1,16 @@
+﻿@using Tuan02_01.Models;
+@{
+    ViewBag.Title = "GetView";    
+}
+
+<div>
+    @{
+        Employee emp = (Employee)ViewBag.Employee;
+    }
+    <b>Employee Details </b> <br />
+    Employee Name : @emp.FirstName @emp.LastName <br />
+    Employee Salary : @emp.Salary.ToString("C");
+    
+</div>
+
+
