@@ -1,7 +1,7 @@
 ﻿* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+ 
 }
 body{
     margin:0; 
@@ -52,18 +52,15 @@ h5{
     color:red;
 }
 
-.phone {
-   
-    width: 250px;    
+.phone {   
+    width: 180px;    
+    height:230px;
+/*    margin-left:auto;
+    margin-right:auto;*/
 }
 
-.column {
-    float: left;
-    width: 25%;
-}
-.row{
-    margin:20px;
-}
+
+
 .xemthem {
     color: red;
     text-align: center;    
@@ -124,3 +121,21 @@ header{
     width: 30px;
     height: 30px;
 }
+
+.row {
+    margin: 20px;  
+}
+
+.column {
+    float: left;
+    width: 22%;
+    border: ridge;
+    border-width: 3px;
+    padding:30px;
+    margin:15px;
+}
+
+
+
+
+
